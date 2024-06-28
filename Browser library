@@ -28,3 +28,7 @@ Your tests can run on the latest browser versions without extra setup.
 * browser binaries: executable files (.exe) that control the browser. 
 
 Installation & update guide at: https://robotframework-browser.org/
+
+Prerequisites:
+Install python and node.js in advance
+Add node.js in path (as environment variable, so that the OS can search and run .exe file from system) and restart computer.
