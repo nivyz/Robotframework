@@ -1,0 +1,30 @@
+Browser library is a browser automation library for Robot Framework.
+It is built on top of the Playwright framework
+Adv: Cross-Browser Testing, high-level keywords
+# Uses Playwright instead of Selenium Library (which uses Selenium WebDriver), providing more modern and robust capabilities.
+Selenium Library Vs Browser Library: 
+Performance:
+Usual (Selenium): Selenium is powerful but can be slower and less stable with complex web applications.
+Browser Library: Generally faster and more reliable, especially with dynamic and modern web applications.
+
+Installation and Setup:
+Usual (Selenium): Requires a WebDriver for each browser (e.g., chromedriver for Chrome).
+Browser Library: Handles browser installation automatically, simplifying setup.
+
+Feature Set:
+Usual (Selenium): Limited support for newer web features like shadow DOMs or more sophisticated interaction capabilities.
+Browser Library: Better support for modern web features, making it more suitable for contemporary web applications.
+
+With Selenium:
+
+You manually download chromedriver.exe for Chrome.
+You specify the path to chromedriver.exe in your tests.
+Selenium uses this executable to control the Chrome browser.
+With Playwright (Browser Library):
+
+Playwright automatically downloads the correct version of the browser binaries.
+No need to manually manage or update these files.
+Your tests can run on the latest browser versions without extra setup.
+* browser binaries: executable files (.exe) that control the browser. 
+
+Installation & update guide at: https://robotframework-browser.org/
