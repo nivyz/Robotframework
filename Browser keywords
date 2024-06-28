@@ -1,1 +1,4 @@
-
+Browser library works with three different layers that build on each other:
+1. Browser: You start by opening a browser.
+2. Context: Within that browser, you create one or more contexts to have isolated sessions(Can be used to run testcases parallely).
+3. Page: Within each context, you can open multiple pages (tabs) to interact with web content
