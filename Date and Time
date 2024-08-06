@@ -1,0 +1,7 @@
+DateTime library used for date and time related works.
+
+#To Get current timestamp
+    ${UTC_currenttime}=    Get Current Date    time_zone=UTC    result_format=%Y-%m-%dT%H:%M:%S.%fZ   #Result: ${UTC_currenttime} = 2024-08-06T12:24:30.824739Z
+#Format timestamp to get upto 3 decimal places for milliseconds
+    ${UTC_currenttime}     Set Variable    ${UTC_currenttime[:23]}Z                                   #Result: ${UTC_currenttime} = 2024-08-06T12:24:30.824Z
+    
