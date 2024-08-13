@@ -4,3 +4,8 @@ Note if given, Set Variable = 3 => Variable name is 'Set Variable ='
 
 -----------
 The 'Get Location' keyword in the SeleniumLibrary of Robot Framework is used to retrieve the current URL of the web page that is currently loaded in the browser. 
+-----------
+Setting of environmental variable:
+${base_url}=    Get Environment Variable    BASE_URL    https://default-url.com
+Get Environment Variable: Retrieves the value of the environment variable BASE_URL( already defined in gitlab). If BASE_URL is not set, it will default to https://default-url.com.
+
