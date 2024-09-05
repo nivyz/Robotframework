@@ -1,0 +1,12 @@
+Accessing a button from webpage using xpath: 
+1. based on text (generated manually):
+//*[normalize-space(text())='abc store']/../..//button
+
+Breaking down:
+//*[normalize-space(text())='abc store']
+//: This starts the search from anywhere in the document.
+*: This selects any element, regardless of its tag name.
+normalize-space(text())='abc store': This function selects an element whose text content, after 
+trimming any leading or trailing whitespace, matches exactly 'abc store'.
+
+To test this in console type $x("//*[normalize-space(text())='abc store']/../..//button") and press Enter.
