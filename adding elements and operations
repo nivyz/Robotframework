@@ -10,3 +10,4 @@ normalize-space(text())='abc store': This function selects an element whose text
 trimming any leading or trailing whitespace, matches exactly 'abc store'.
 
 To test this in console type $x("//*[normalize-space(text())='abc store']/../..//button") and press Enter.
+ or  in Elements tab, search with the xpath and the the element should be found (will get highlighted).
